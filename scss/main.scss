@@ -9,7 +9,17 @@ $box-shadow:10px 0px 102px 51px rgba(125,161,170,0.36);
 // @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 $font-family-sans-serif: 'Roboto', sans-serif;
 $font-weight-normal: 500;
-
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: 1.1rem,
+  7: 1.48rem,
+);
 
 $utilities:() !default;
 $utilities: map-merge((
